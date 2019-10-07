@@ -1,0 +1,32 @@
+nav {
+  width: 980px;
+  height: 92px;
+  border-bottom: 2px solid $white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    height: 42px;
+    width: 92px;
+  }
+
+  .lonks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: lowercase;
+
+    a {
+      text-decoration: none;
+      color: $white;
+      font-size: 15px;
+    }
+
+    span {
+      margin: 0px 5px;
+      color: $pink;
+      font-size: 24px;
+    }
+  }
+}
