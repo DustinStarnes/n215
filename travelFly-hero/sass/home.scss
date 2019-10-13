@@ -1,0 +1,50 @@
+.hero-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: $white;
+
+  .hero {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: linear-gradient(
+        to right,
+        rgba($black, 0.3),
+        rgba($black, 0.3)
+      ),
+      url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .callout {
+      margin-top: 90px;
+      min-height: 200px;
+      width: 484px;
+      text-align: center;
+
+      .header-home {
+        color: $white;
+        font-size: 60px;
+      }
+      .desc {
+        color: $white;
+        font-style: italic;
+        font-family: $gill-sans;
+        font-size: 20px;
+        margin-bottom: 45px;
+      }
+      .readMore-button {
+        padding: 7px 20px;
+        background-color: $blue;
+        text-decoration: none;
+        font-family: $gill-sans;
+        color: $white;
+      }
+    }
+  }
+}
