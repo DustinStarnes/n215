@@ -62,10 +62,17 @@
 
   .header {
     font-size: 60px;
+    font-family: $robo;
   }
   .price {
     font-size: 30px;
     margin-top: -90px;
+    font-family: $robo;
+  }
+  .aussi {
+    .header {
+      font-size: 45px;
+    }
   }
   //133 40
   .learn-btn {
@@ -77,6 +84,7 @@
     text-decoration: none;
     font-size: 15px;
     border-radius: 20px;
+    font-family: $gill-sans;
     cursor: pointer;
   }
 }
