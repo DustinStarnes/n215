@@ -182,6 +182,7 @@ nav {
     justify-content: space-around;
     color: #ffffff; }
   .popup-holder .header {
+<<<<<<< HEAD
     font-size: 60px;
     font-family: "Roboto", sans-serif; }
   .popup-holder .price {
@@ -190,6 +191,12 @@ nav {
     font-family: "Roboto", sans-serif; }
   .popup-holder .aussi .header {
     font-size: 45px; }
+=======
+    font-size: 60px; }
+  .popup-holder .price {
+    font-size: 30px;
+    margin-top: -90px; }
+>>>>>>> master
   .popup-holder .learn-btn {
     width: 133px;
     height: 40px;
@@ -199,7 +206,10 @@ nav {
     text-decoration: none;
     font-size: 15px;
     border-radius: 20px;
+<<<<<<< HEAD
     font-family: "Gill Sans", sans-serif;
+=======
+>>>>>>> master
     cursor: pointer; }
 
 .booking-form-wrapper {
@@ -211,8 +221,12 @@ nav {
     height: 80px;
     margin-top: 39px; }
     .booking-form-wrapper .sub-header .header {
+<<<<<<< HEAD
       font-size: 60px;
       font-family: "Roboto", sans-serif; }
+=======
+      font-size: 60px; }
+>>>>>>> master
   .booking-form-wrapper .form-row-01 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -312,8 +326,12 @@ nav {
       width: 100%;
       height: 192px;
       border: 1px solid #79addc;
+<<<<<<< HEAD
       padding: 15px 0 0 15px;
       font-family: "Gill Sans", sans-serif; }
+=======
+      padding: 15px 0 0 15px; }
+>>>>>>> master
   .booking-form-wrapper .form-row-07 {
     display: -webkit-box;
     display: -ms-flexbox;
