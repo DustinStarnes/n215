@@ -1,0 +1,4 @@
+@mixin center-content($width, $margin) {
+  max-width: $width;
+  margin: $margin;
+}

@@ -19,3 +19,39 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+.inputs {
+  height: 400px;
+  background-color: $pink;
+  @include center-content(1280px, 0 auto);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 529px;
+    height: 60px;
+    font-size: 16px;
+    background-color: $input;
+    padding-left: 20px;
+    border: none;
+    color: rgba($white, 0.5);
+    //border: 2px solid $purp;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: rgba($white, 0.5);
+    }
+  }
+
+  .submit-button {
+    background-color: $white;
+    color: $pink;
+    text-transform: uppercase;
+    width: 167px;
+    margin-left: -5px;
+  }
+}
