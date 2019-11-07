@@ -1,7 +1,7 @@
 //378 80
 .booking-form-wrapper {
-  width: 818px;
-  height: 100%;
+  max-width: 818px;
+  max-height: 100%;
   margin: 0 auto;
 
   .sub-header {
@@ -132,6 +132,51 @@
       font-size: 15px;
       border-radius: 40px;
       cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 895px) {
+  .booking-form-wrapper {
+    margin: 0 10px 0 10px;
+    .sub-header {
+      width: 20px;
+      .header {
+        font-size: 45px;
+      }
+    }
+    .form-row-02,
+    .form-row-06 {
+      display: none;
+    }
+    .form-row-01 {
+      .name {
+        width: 48%;
+      }
+      .email {
+        width: 48%;
+      }
+    }
+    .form-row-03 {
+      .check-in {
+        width: 85%;
+      }
+    }
+    .form-row-04 {
+      .check-out {
+        width: 85%;
+      }
+    }
+    .form-row-05 {
+      margin-bottom: 25px;
+      .number-scroll {
+        width: 11%;
+      }
+    }
+    .form-row-07 {
+      .submit-btn {
+        width: 50%;
+      }
     }
   }
 }

@@ -4,7 +4,7 @@
   background-color: $white;
 
   .hero {
-    width: 1280px;
+    max-width: 100%;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -45,6 +45,25 @@
         text-decoration: none;
         font-family: $gill-sans;
         color: $white;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 895px) {
+  .hero-wrapper {
+    .hero {
+      .callout {
+        width: 37%;
+        .header-home {
+          font-size: 3vw;
+        }
+        .desc {
+          font-size: 2vw;
+        }
+        .readMore-button {
+          font-size: 1.5vw;
+        }
       }
     }
   }

@@ -1,5 +1,5 @@
 .popup-holder {
-  width: 818px;
+  max-width: 818px;
   height: 304px;
   margin: -37px auto 0;
   display: flex;
@@ -62,13 +62,11 @@
 
   .header {
     font-size: 60px;
-
     font-family: $robo;
   }
   .price {
     font-size: 30px;
     margin-top: -90px;
-
     font-family: $robo;
   }
   .aussi {
@@ -90,5 +88,15 @@
     font-family: $gill-sans;
 
     cursor: pointer;
+  }
+}
+
+@media (max-width: 895px) {
+  .popup-holder {
+    height: 912px;
+    display: block;
+    .popup {
+      width: 100%;
+    }
   }
 }

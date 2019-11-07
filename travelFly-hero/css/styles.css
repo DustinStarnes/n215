@@ -19,7 +19,7 @@ p {
   margin-bottom: 16px; }
 
 nav {
-  width: 980px;
+  width: 80%;
   height: 92px;
   border-bottom: 2px solid #ffffff;
   display: -webkit-box;
@@ -54,13 +54,24 @@ nav {
       margin: 0px 15px;
       color: #79addc;
       font-size: 24px; }
+  nav .navicon {
+    display: none;
+    color: #ffffff;
+    font-size: 120%;
+    cursor: pointer; }
+
+@media (max-width: 768px) {
+  nav .lonks {
+    display: none; }
+  nav .navicon {
+    display: block; } }
 
 .hero-wrapper {
   width: 100%;
   height: 500px;
   background-color: #ffffff; }
   .hero-wrapper .hero {
-    width: 1280px;
+    max-width: 100%;
     height: 100%;
     margin: 0 auto;
     display: -webkit-box;
@@ -102,8 +113,18 @@ nav {
         font-family: "Gill Sans", sans-serif;
         color: #ffffff; }
 
+@media all and (max-width: 895px) {
+  .hero-wrapper .hero .callout {
+    width: 37%; }
+    .hero-wrapper .hero .callout .header-home {
+      font-size: 3vw; }
+    .hero-wrapper .hero .callout .desc {
+      font-size: 2vw; }
+    .hero-wrapper .hero .callout .readMore-button {
+      font-size: 1.5vw; } }
+
 .popup-holder {
-  width: 818px;
+  max-width: 818px;
   height: 304px;
   margin: -37px auto 0;
   display: -webkit-box;
@@ -202,9 +223,16 @@ nav {
     font-family: "Gill Sans", sans-serif;
     cursor: pointer; }
 
+@media (max-width: 895px) {
+  .popup-holder {
+    height: 912px;
+    display: block; }
+    .popup-holder .popup {
+      width: 100%; } }
+
 .booking-form-wrapper {
-  width: 818px;
-  height: 100%;
+  max-width: 818px;
+  max-height: 100%;
   margin: 0 auto; }
   .booking-form-wrapper .sub-header {
     width: 378px;
@@ -332,8 +360,33 @@ nav {
       border-radius: 40px;
       cursor: pointer; }
 
+@media (max-width: 895px) {
+  .booking-form-wrapper {
+    margin: 0 10px 0 10px; }
+    .booking-form-wrapper .sub-header {
+      width: 20px; }
+      .booking-form-wrapper .sub-header .header {
+        font-size: 45px; }
+    .booking-form-wrapper .form-row-02,
+    .booking-form-wrapper .form-row-06 {
+      display: none; }
+    .booking-form-wrapper .form-row-01 .name {
+      width: 48%; }
+    .booking-form-wrapper .form-row-01 .email {
+      width: 48%; }
+    .booking-form-wrapper .form-row-03 .check-in {
+      width: 85%; }
+    .booking-form-wrapper .form-row-04 .check-out {
+      width: 85%; }
+    .booking-form-wrapper .form-row-05 {
+      margin-bottom: 25px; }
+      .booking-form-wrapper .form-row-05 .number-scroll {
+        width: 11%; }
+    .booking-form-wrapper .form-row-07 .submit-btn {
+      width: 50%; } }
+
 .footer-holder {
-  width: 1280px;
+  max-width: 1280px;
   height: 100px;
   background-color: #79addc;
   margin: 100px auto 0;
