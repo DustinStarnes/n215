@@ -39,3 +39,12 @@
     }
   }
 }
+
+@media all and (max-width: 895px) {
+  .footer-holder {
+    justify-content: space-around;
+    .copy-right {
+      display: none;
+    }
+  }
+}

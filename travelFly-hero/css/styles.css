@@ -115,13 +115,13 @@ nav {
 
 @media all and (max-width: 895px) {
   .hero-wrapper .hero .callout {
-    width: 37%; }
+    width: 75%; }
     .hero-wrapper .hero .callout .header-home {
-      font-size: 3vw; }
+      font-size: 10vw; }
     .hero-wrapper .hero .callout .desc {
-      font-size: 2vw; }
+      font-size: 3vw; }
     .hero-wrapper .hero .callout .readMore-button {
-      font-size: 1.5vw; } }
+      font-size: 2vw; } }
 
 .popup-holder {
   max-width: 818px;
@@ -423,3 +423,10 @@ nav {
       font-size: 23px; }
     .footer-holder .fast-lonks .rounded {
       border-radius: 5px; }
+
+@media all and (max-width: 895px) {
+  .footer-holder {
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .footer-holder .copy-right {
+      display: none; } }
