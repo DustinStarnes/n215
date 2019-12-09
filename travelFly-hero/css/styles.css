@@ -25,6 +25,7 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: auto;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -59,6 +60,11 @@ nav {
     color: #ffffff;
     font-size: 120%;
     cursor: pointer; }
+
+.nav-black {
+  border-bottom: 2px solid #000000; }
+  .nav-black .black {
+    color: #000000; }
 
 @media (max-width: 768px) {
   nav .lonks {
@@ -430,3 +436,894 @@ nav {
     justify-content: space-around; }
     .footer-holder .copy-right {
       display: none; } }
+
+.about-text-holder {
+  padding-top: 90px;
+  max-width: 980px;
+  margin: 0 auto; }
+  .about-text-holder .about-header {
+    font-size: 60px; }
+  .about-text-holder .underline {
+    max-width: 171px;
+    height: 2px;
+    background-color: #000000;
+    margin-top: -20px; }
+  .about-text-holder .about-text {
+    margin-top: 37px;
+    font-size: 16px; }
+  .about-text-holder .client-holder {
+    margin-top: 95px; }
+    .about-text-holder .client-holder .client-header {
+      font-size: 40px; }
+    .about-text-holder .client-holder .underline2 {
+      width: 255px;
+      height: 2px;
+      background-color: #000000; }
+    .about-text-holder .client-holder .client-box-holder {
+      margin-top: 37px;
+      max-width: 722px;
+      height: 337px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .about-text-holder .client-holder .client-box-holder .client-box {
+        height: 150px;
+        max-width: 722px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .about-text-holder .client-holder .client-box-holder .client-box .client-img-1 {
+          height: 150px;
+          width: 260px;
+          background-image: url(../images/about-client-01.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat; }
+        .about-text-holder .client-holder .client-box-holder .client-box .client-img-2 {
+          height: 150px;
+          width: 260px;
+          background-image: url(../images/about-client-02.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat; }
+        .about-text-holder .client-holder .client-box-holder .client-box .client-quote-box {
+          height: 150px;
+          width: 462px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          .about-text-holder .client-holder .client-box-holder .client-box .client-quote-box .client-quote {
+            width: 385px;
+            margin-left: 21px;
+            font-size: 16px; }
+          .about-text-holder .client-holder .client-box-holder .client-box .client-quote-box .client-name {
+            margin-left: 296px;
+            font-size: 20px;
+            color: #79addc; }
+
+@media all and (max-width: 895px) {
+  .about-text-holder {
+    padding: 0 25px 0 25px; }
+    .about-text-holder .client-holder .client-box-holder {
+      height: 650px;
+      max-width: 400px; }
+      .about-text-holder .client-holder .client-box-holder .client-box {
+        padding: 0 25px 0 25px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin: 0 auto;
+        height: 300px;
+        max-width: 400px; }
+        .about-text-holder .client-holder .client-box-holder .client-box .client-quote-box {
+          margin-top: 10px; } }
+
+.tours-holder {
+  width: 981px;
+  height: 1270px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .tours-holder .tours-header {
+    width: 981px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tours-header.jpg);
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tours-header.jpg);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tours-header.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tours-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .tours-holder .tours-header .tours-header-text {
+      font-size: 60px;
+      color: #ffffff; }
+  .tours-holder .options-holder {
+    height: 1022px;
+    width: 818px;
+    margin-top: 50px; }
+    .tours-holder .options-holder .header {
+      font-size: 60px;
+      font-family: "Roboto", sans-serif; }
+    .tours-holder .options-holder .nz {
+      font-size: 37px; }
+    .tours-holder .options-holder .price {
+      font-size: 30px;
+      margin-top: -90px;
+      font-family: "Roboto", sans-serif; }
+    .tours-holder .options-holder .learn-btn {
+      width: 133px;
+      height: 40px;
+      background-color: #79addc;
+      border: none;
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      border-radius: 20px;
+      font-family: "Gill Sans", sans-serif;
+      cursor: pointer; }
+    .tours-holder .options-holder .option {
+      width: 236px;
+      height: 304px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      color: #ffffff; }
+    .tours-holder .options-holder .bimg {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .tours-holder .options-holder .row-1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .tours-holder .options-holder .row-1 .o1 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-01.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg); }
+      .tours-holder .options-holder .row-1 .o2 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-02.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-02.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-02.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-02.jpg); }
+      .tours-holder .options-holder .row-1 .o3 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-03.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-03.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-03.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-03.jpg); }
+    .tours-holder .options-holder .row-2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 50px;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .tours-holder .options-holder .row-2 .o4 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-04.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-04.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-04.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-04.jpg); }
+      .tours-holder .options-holder .row-2 .o5 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-05.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-05.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-05.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-05.jpg); }
+      .tours-holder .options-holder .row-2 .o6 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-06.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-06.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-06.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-06.jpg); }
+    .tours-holder .options-holder .row-3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 50px;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .tours-holder .options-holder .row-3 .o7 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-07.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-07.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-07.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-07.jpg); }
+      .tours-holder .options-holder .row-3 .o8 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-08.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-08.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-08.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-08.jpg); }
+      .tours-holder .options-holder .row-3 .o9 {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-09.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-09.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-09.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-09.jpg); }
+
+@media all and (max-width: 981px) {
+  .tours-holder {
+    width: 80%;
+    height: 2600px; }
+    .tours-holder .tours-header {
+      width: 110%; }
+    .tours-holder .options-holder {
+      width: 90%; }
+      .tours-holder .options-holder .header {
+        margin-bottom: 35px; }
+      .tours-holder .options-holder .option {
+        width: 100%;
+        height: 250px; }
+      .tours-holder .options-holder .row-1,
+      .tours-holder .options-holder .row-2,
+      .tours-holder .options-holder .row-3 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+
+.detail-holder {
+  width: 981px;
+  height: 1725px;
+  margin: 0 auto;
+  margin-top: 50px; }
+  .detail-holder .package-img-holder {
+    width: 981px;
+    height: 800px; }
+    .detail-holder .package-img-holder .bimg {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .detail-holder .package-img-holder .hero-img {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-01.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .hero-img-aus {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-02.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-02.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-02.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-02.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img-aus .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img-aus .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img-aus .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .hero-img-can {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-08.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-08.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-08.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-08.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img-can .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img-can .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img-can .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .hero-img-egy {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-06.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-06.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-06.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-06.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img-egy .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img-egy .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img-egy .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .hero-img-fra {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-05.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-05.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-05.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-05.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img-fra .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img-fra .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img-fra .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .hero-img-jap {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-07.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-07.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-07.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-07.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img-jap .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img-jap .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img-jap .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .hero-img-new {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-04.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-04.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-04.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-04.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img-new .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img-new .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img-new .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .hero-img-uae {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-03.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-03.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-03.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-03.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img-uae .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img-uae .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img-uae .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .hero-img-usa {
+      width: 981px;
+      height: 413px;
+      color: #ffffff;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/tour/tour-09.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-09.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-09.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-09.jpg);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .hero-img-usa .hero-text {
+        font-size: 80px; }
+      .detail-holder .package-img-holder .hero-img-usa .bottom-right {
+        height: 50px;
+        width: 981px; }
+        .detail-holder .package-img-holder .hero-img-usa .bottom-right .hero-price {
+          font-size: 30px;
+          float: right; }
+    .detail-holder .package-img-holder .support-img-holder {
+      width: 981px;
+      height: 347px;
+      margin-top: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .detail-holder .package-img-holder .support-img-holder .support-img {
+        width: 298px;
+        height: 347px; }
+      .detail-holder .package-img-holder .support-img-holder .s1 {
+        background-image: url(../images/tour/tour-israel/israel-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s2 {
+        background-image: url(../images/tour/tour-israel/israel-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s3 {
+        background-image: url(../images/tour/tour-israel/israel-tour-03.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s4 {
+        background-image: url(../images/tour/tour-aus/aus-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s5 {
+        background-image: url(../images/tour/tour-aus/aus-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s6 {
+        background-image: url(../images/tour/tour-aus/aus-tour-03.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s7 {
+        background-image: url(../images/tour/tour-canada/canada-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s8 {
+        background-image: url(../images/tour/tour-canada/canada-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s9 {
+        background-image: url(../images/tour/tour-canada/canada-tour-03.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s10 {
+        background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s11 {
+        background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s12 {
+        background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s13 {
+        background-image: url(../images/tour/tour-france/france-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s14 {
+        background-image: url(../images/tour/tour-france/france-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s15 {
+        background-image: url(../images/tour/tour-france/france-tour-03.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s16 {
+        background-image: url(../images/tour/tour-japan/japan-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s17 {
+        background-image: url(../images/tour/tour-japan/japan-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s18 {
+        background-image: url(../images/tour/tour-japan/japan-tour-03.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s19 {
+        background-image: url(../images/tour/tour-nz/nz-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s20 {
+        background-image: url(../images/tour/tour-nz/nz-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s21 {
+        background-image: url(../images/tour/tour-nz/nz-tour-03.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s22 {
+        background-image: url(../images/tour/tour-uae/uae-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s23 {
+        background-image: url(../images/tour/tour-uae/uae-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s24 {
+        background-image: url(../images/tour/tour-uae/uae-tour-03.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s25 {
+        background-image: url(../images/tour/tour-usa/usa-tour-01.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s26 {
+        background-image: url(../images/tour/tour-usa/usa-tour-02.jpg); }
+      .detail-holder .package-img-holder .support-img-holder .s27 {
+        background-image: url(../images/tour/tour-usa/usa-tour-03.jpg); }
+  .detail-holder .package-text-holder {
+    width: 981px;
+    height: 906px;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .detail-holder .package-text-holder .package-text-box {
+      width: 981px;
+      height: 214px; }
+      .detail-holder .package-text-holder .package-text-box .day-header {
+        font-size: 60px; }
+      .detail-holder .package-text-holder .package-text-box .underline {
+        height: 2px;
+        width: 171px;
+        background-color: #000000; }
+      .detail-holder .package-text-holder .package-text-box .package-text {
+        margin-top: 37px;
+        font-size: 16px; }
+    .detail-holder .package-text-holder .book-btn {
+      width: 133px;
+      height: 40px;
+      margin: 0 auto;
+      background-color: #79addc;
+      border: none;
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+      border-radius: 20px;
+      font-family: "Gill Sans", sans-serif;
+      cursor: pointer; }
+
+.special-holder {
+  width: 980px;
+  height: 685px;
+  margin: 0 auto; }
+  .special-holder .special-title {
+    font-size: 30px;
+    margin-top: 20px; }
+  .special-holder .underline {
+    height: 2px;
+    width: 199px;
+    background-color: #000000;
+    margin-bottom: 20px; }
+  .special-holder .offer-holder {
+    width: 539px;
+    height: 287px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 50px; }
+    .special-holder .offer-holder .bimg {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .special-holder .offer-holder .offer-img1 {
+      width: 199px;
+      height: 287px;
+      background-image: url(../images/special-offer-01.jpg); }
+    .special-holder .offer-holder .offer-img2 {
+      width: 199px;
+      height: 287px;
+      background-image: url(../images/special-offer-02.jpg); }
+    .special-holder .offer-holder .offer-info {
+      margin-left: 25px;
+      width: 290px;
+      height: 287px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .special-holder .offer-holder .offer-info .offer-header {
+        font-size: 30px; }
+      .special-holder .offer-holder .offer-info .offer-underline {
+        height: 2px;
+        width: 196px;
+        background-color: #000000; }
+      .special-holder .offer-holder .offer-info .offer-text {
+        font-size: 16px; }
+      .special-holder .offer-holder .offer-info .offer-btn {
+        width: 133px;
+        height: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #79addc;
+        border: none;
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 20px;
+        font-family: "Gill Sans", sans-serif;
+        cursor: pointer; }
+
+.blog-holder {
+  width: 980px;
+  height: 860px;
+  margin: 0 auto; }
+  .blog-holder .blog {
+    width: 980px;
+    height: 390px;
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .blog-holder .blog .blog-date {
+      width: 60px;
+      height: 60px;
+      background-color: #79addc;
+      color: #ffffff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .blog-holder .blog .blog-date .day {
+        font-size: 22px; }
+      .blog-holder .blog .blog-date .month {
+        font-size: 12px; }
+    .blog-holder .blog .blog-info-holder {
+      width: 900px;
+      height: 390px; }
+      .blog-holder .blog .blog-info-holder .bimg {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .blog-holder .blog .blog-info-holder .blog-img {
+        width: 900px;
+        height: 259px;
+        background-image: url(../images/blog.jpg); }
+      .blog-holder .blog .blog-info-holder .blog-info {
+        width: 380px;
+        height: 131px; }
+        .blog-holder .blog .blog-info-holder .blog-info .black-text {
+          margin-top: 15px;
+          color: #000000; }
+        .blog-holder .blog .blog-info-holder .blog-info .blue-text {
+          margin-top: 15px;
+          color: #79addc; }
+
+@media all and (max-width: 981px) {
+  .blog-holder {
+    padding: 5px;
+    width: 80%;
+    height: 100%; }
+    .blog-holder .blog {
+      width: 80%;
+      height: 150px; }
+      .blog-holder .blog .blog-info-holder {
+        width: 80%;
+        margin-left: 30px; }
+        .blog-holder .blog .blog-info-holder .blog-img {
+          display: none;
+          width: 0px; }
+        .blog-holder .blog .blog-info-holder .blog-info {
+          width: 300px; } }
+
+.contact-holder {
+  width: 980px;
+  height: 742px;
+  margin: 0 auto; }
+  .contact-holder .contact-header {
+    font-size: 30px;
+    margin-top: 20px; }
+  .contact-holder .underline {
+    height: 2px;
+    width: 159px;
+    background-color: #000000;
+    margin-bottom: 30px; }
+  .contact-holder .contact-info-holder {
+    height: 637px;
+    width: 980px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .contact-holder .contact-info-holder .contact-left {
+      width: 400px;
+      height: 637px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .contact-holder .contact-info-holder .contact-left .contact-map {
+        width: 400px;
+        height: 442px;
+        background-image: url(../images/map.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .contact-holder .contact-info-holder .contact-left .addy {
+        font-size: 18px; }
+    .contact-holder .contact-info-holder .contact-right {
+      height: 522px;
+      width: 529px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .contact-holder .contact-info-holder .contact-right .hw {
+        width: 529px;
+        height: 60px;
+        padding-left: 7px; }
+      .contact-holder .contact-info-holder .contact-right .style {
+        border: none;
+        background-color: #f5f5f5; }
+      .contact-holder .contact-info-holder .contact-right .message {
+        width: 529px;
+        height: 199px;
+        padding-left: 7px; }
+      .contact-holder .contact-info-holder .contact-right .btn-row {
+        height: 60px;
+        width: 529px; }
+        .contact-holder .contact-info-holder .contact-right .btn-row .send {
+          width: 167px;
+          height: 60px;
+          background-color: #79addc;
+          border: none;
+          color: #ffffff;
+          text-decoration: none;
+          font-size: 16px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+
+@media all and (max-width: 981px) {
+  .contact-holder {
+    width: 320px; }
+    .contact-holder .contact-info-holder {
+      width: 320px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .contact-holder .contact-info-holder .contact-left {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 320px; }
+        .contact-holder .contact-info-holder .contact-left .contact-map {
+          display: none; }
+        .contact-holder .contact-info-holder .contact-left .addy {
+          margin-bottom: 25px; }
+      .contact-holder .contact-info-holder .contact-right {
+        width: 320px; }
+        .contact-holder .contact-info-holder .contact-right .hw {
+          margin: 10px 10px 15px 10px;
+          width: 300px; }
+        .contact-holder .contact-info-holder .contact-right .message {
+          width: 300px;
+          margin-bottom: 15px; }
+        .contact-holder .contact-info-holder .contact-right .btn-row {
+          width: 320px; }
+          .contact-holder .contact-info-holder .contact-right .btn-row .send {
+            margin: auto; } }

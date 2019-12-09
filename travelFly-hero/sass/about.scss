@@ -1,0 +1,105 @@
+.about-text-holder {
+  padding-top: 90px;
+  max-width: 980px;
+  margin: 0 auto;
+
+  .about-header {
+    font-size: 60px;
+  }
+  .underline {
+    max-width: 171px;
+    height: 2px;
+    background-color: $black;
+    margin-top: -20px;
+  }
+  .about-text {
+    margin-top: 37px;
+    font-size: 16px;
+  }
+
+  .client-holder {
+    margin-top: 95px;
+    .client-header {
+      font-size: 40px;
+    }
+    .underline2 {
+      width: 255px;
+      height: 2px;
+      background-color: $black;
+    }
+    .client-box-holder {
+      margin-top: 37px;
+      max-width: 722px;
+      height: 337px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .client-box {
+        height: 150px;
+        max-width: 722px;
+        display: flex;
+
+        .client-img-1 {
+          height: 150px;
+          width: 260px;
+          background-image: url(../images/about-client-01.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .client-img-2 {
+          height: 150px;
+          width: 260px;
+          background-image: url(../images/about-client-02.jpg);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+        .client-quote-box {
+          height: 150px;
+          width: 462px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .client-quote {
+            width: 385px;
+            margin-left: 21px;
+            font-size: 16px;
+          }
+          .client-name {
+            margin-left: 296px;
+            font-size: 20px;
+            color: $blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 895px) {
+  .about-text-holder {
+    padding: 0 25px 0 25px;
+
+    .client-holder {
+      .client-box-holder {
+        height: 650px;
+        max-width: 400px;
+        .client-box {
+          padding: 0 25px 0 25px;
+          flex-direction: column;
+          margin: 0 auto;
+          height: 300px;
+          max-width: 400px;
+
+          .client-quote-box {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

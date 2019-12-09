@@ -1,0 +1,121 @@
+.contact-holder {
+  width: 980px;
+  height: 742px;
+  margin: 0 auto;
+
+  .contact-header {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .underline {
+    height: 2px;
+    width: 159px;
+    background-color: $black;
+    margin-bottom: 30px;
+  }
+
+  .contact-info-holder {
+    height: 637px;
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+
+    .contact-left {
+      width: 400px;
+      height: 637px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .contact-map {
+        width: 400px;
+        height: 442px;
+        background-image: url(../images/map.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .addy {
+        font-size: 18px;
+      }
+    }
+
+    .contact-right {
+      height: 522px;
+      width: 529px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      .hw {
+        width: 529px;
+        height: 60px;
+        padding-left: 7px;
+      }
+      .style {
+        border: none;
+        background-color: #f5f5f5;
+      }
+      .message {
+        width: 529px;
+        height: 199px;
+        padding-left: 7px;
+      }
+      .btn-row {
+        height: 60px;
+        width: 529px;
+        .send {
+          width: 167px;
+          height: 60px;
+          background-color: $blue;
+          border: none;
+          color: $white;
+          text-decoration: none;
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+@media all and (max-width: 981px) {
+  .contact-holder {
+    width: 320px;
+
+    .contact-info-holder {
+      width: 320px;
+      flex-direction: column;
+      .contact-left {
+        flex-direction: row;
+        width: 320px;
+        .contact-map {
+          display: none;
+        }
+        .addy {
+          margin-bottom: 25px;
+        }
+      }
+      .contact-right {
+        width: 320px;
+        .hw {
+          margin: 10px 10px 15px 10px;
+          width: 300px;
+        }
+        .message {
+          width: 300px;
+          margin-bottom: 15px;
+        }
+        .btn-row {
+          width: 320px;
+
+          .send {
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}

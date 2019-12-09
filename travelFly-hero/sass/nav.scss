@@ -3,6 +3,7 @@ nav {
   height: 92px;
   border-bottom: 2px solid $white;
   display: flex;
+  margin: auto;
   align-items: center;
   justify-content: space-between;
 
@@ -36,6 +37,14 @@ nav {
     color: $white;
     font-size: 120%;
     cursor: pointer;
+  }
+}
+
+.nav-black {
+  border-bottom: 2px solid $black;
+
+  .black {
+    color: $black;
   }
 }
 
